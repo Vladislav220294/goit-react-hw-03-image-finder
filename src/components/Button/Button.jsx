@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
-const Button = () => {
-    return ( <div></div> );
+const Button = ({onLoadMore}) => {
+    return ( <div><button type='button' onClick={onLoadMore}>Load more </button></div> );
 }
  
 export default Button;
