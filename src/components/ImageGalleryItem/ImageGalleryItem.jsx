@@ -11,7 +11,7 @@ const ImageGalleryItem = ({ toggleModal, webformatURL, largeImageURL }) => {
           className={s.imageGalleryItemimage}
           onClick={() => toggleModal(largeImageURL)}
         />
-      </li>{' '}
+      </li>
     </>
   );
 };

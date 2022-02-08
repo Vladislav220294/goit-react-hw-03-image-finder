@@ -9,7 +9,7 @@ const ImageGalleryList = ({ images, showModal, toggleModal }) => {
         <ImageGalleryItem
           showModal={showModal}
           toggleModal={toggleModal}
-          key={image.id}
+          key={images.indexOf(image)}
           webformatURL={image.webformatURL}
           largeImageURL={image.largeImageURL}
         />
